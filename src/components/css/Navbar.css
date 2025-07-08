@@ -2,7 +2,6 @@
   background-color: var(---white);
   width: 100%;
   padding-block: 0.5rem;
-  padding-inline:7.5rem; ;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   display: flex;
   align-items: center;
@@ -13,10 +12,15 @@
   font-size: 20px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.sidebar{
+    font-size: 15px;
+  font-family: "Din-Regular";
+}
 .nav-item a{
   color: black;
     transition: color 0.5s;
 }
-.navbar .nav-item a:hover {
+.navbar .nav-item a:hover , 
+.navbar .navbar-toggler:hover{
   color:var(--mainColor);
 }

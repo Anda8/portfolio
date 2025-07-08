@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+
 }
 
 @font-face {
@@ -16,7 +18,7 @@
 }
 
 :root {
-  --mainColor: #ff3d3c;
+  --mainColor: #f556a8;
   --dark: #252829;
   --white: #fff;
 }

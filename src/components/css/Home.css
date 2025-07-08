@@ -1,10 +1,36 @@
-.banner {
+/* .banner {
   height: 100vh;
-  background-image: url(/public/images/banner.jpg);
+  background-image: url(/public/images/ryoji-hayasaka-ilNuM-2c6Yc-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  opacity: 0.7;
+} */
+ .banner {
+  position: relative;
+  height: 100vh;
+  background-image: url("/public/images/ryoji-hayasaka-ilNuM-2c6Yc-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 1;
 }
+
+.banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.4); /* نسبة الشفافية هنا */
+  z-index: 2;
+}
+
+.banner .container {
+  position: relative;
+  z-index: 3; /* فوق overlay */
+}
+
 .banner .portifolioLinks ul li a {
   font-size: 15px;
   font-family: "Din-Regular";

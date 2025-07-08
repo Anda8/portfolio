@@ -39,9 +39,10 @@ export default function Home() {
   return (
     ////////////////////////////////////////////// START HOME //////////////////////////////////////////////
     <section className="banner d-flex align-items-center" id="home">
+       <div className="overlay"></div>
       <div className="container">
         <div className="row g-0 mb-2">
-          <div className="col-md-2">
+         <div className="col-md-2 d-none d-lg-block">
             <div className="portifolioLinks position-fixed">
               <ul className="navbar-nav mb-2 mb-lg-0">
                 {navItems.map((item) => (
