@@ -1,0 +1,25 @@
+.footer {
+    background-color: var(--dark);
+    color: var(---white);
+    padding: 20px 0;
+}
+.footer p {
+    font-size: 17px;
+    color: white;
+}
+.footer .footerIcons a {
+    font-size: 20px;
+    margin: 0 10px;
+    color: white;
+}
+.footer .footerIcons a {
+    font-size: 17px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.footer .footerIcons a:hover {
+  color: var(--mainColor);
+}

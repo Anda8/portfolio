@@ -1,0 +1,48 @@
+.portifolio {
+    padding: 60px 0;
+}
+.portifolio h3, h5{
+    color: var(--mainColor);
+}
+.portifolio .portifolioImg, .portifolio .portifolioContent {
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.portifolioContent {
+    margin: 15px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.portifolioImg {
+    overflow: hidden;
+}
+img {
+    width: 100%;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+.portifolioContent .portifolioDemoandGit a{
+    font-size: 17px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.portifolioContent .portifolioDemoandGit a:hover{
+color: var(--mainColor);
+}
+.portifolioContent .portifolioDemoandGit i {
+     transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.portifolioContent .portifolioDemoandGit a:nth-of-type(1):hover i {
+  margin-left: 10px;
+  color: var(--mainColor);
+}

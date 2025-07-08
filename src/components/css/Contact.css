@@ -1,0 +1,31 @@
+.contact {
+    padding: 60px 0;
+}
+.contact h3, h5{
+    color: var(--mainColor);
+}
+.contact .contactIcon {
+    font-size: 35px;
+}
+ .contact a{
+    font-size: 17px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.contact a:hover {
+  color: var(--mainColor);
+}
+.contact .write i {
+     transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.contact .write:hover i {
+  margin-left: 10px;
+  color: var(--mainColor);
+}

@@ -1,0 +1,36 @@
+.banner {
+  height: 100vh;
+  background-image: url(/public/images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.banner .portifolioLinks ul li a {
+  font-size: 15px;
+  font-family: "Din-Regular";
+}
+.banner .portifolioLinks .nav-link.active {
+  color: var(--mainColor);
+}
+.banner .portifoliContent1 small {
+  font-size: 15px;
+
+}
+.banner .portifoliContent1 .title span {
+  color: var(--mainColor);
+  font-family: "Gwendolyn", cursive;
+  font-size: 36.5px;
+}
+.banner .portifoliContent1 p {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.banner .portifoliContent1 a {
+  background-color: white;
+   transition: color 0.5s;
+}
+.banner .portifoliContent1 a:hover {
+  background-color: var(--mainColor);
+  color: white;
+}
